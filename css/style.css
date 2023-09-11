@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.container80 {
+  width: 80%;
+  margin: auto;
+}
+
+.container60 {
+  width: 60%;
+  margin: auto;
+}
+
+.header-container .headerOne {
+  background: #031c43;
+  padding: 10px 0px;
+}
+.header-container .headerOne p {
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 22px;
+}
+.header-container .headerTwo {
+  background: #1ec9e1;
+  height: 41px;
+}
+.header-container .headerTwo p {
+  font-size: 18px;
+  font-style: normal;
+}
+.header-container .headerTwo .contactPh p {
+  font-size: 12px;
+}
+
+.hero {
+  background: url("../img/hero-bg.png"), lightgray 50%/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+.hero p {
+  font-size: 14px;
+}
+.hero span.p-header {
+  margin: 0;
+  font-size: 18px;
+  display: flex;
+  padding: 10px 21px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #1e69e1;
+  font-weight: 600;
+}
+.hero h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: normal;
+  color: #1e69e1;
+  margin: 20px 0;
+}
+.hero .heroLeft {
+  width: 40%;
+  margin-right: 2rem;
+}
+.hero .content-hero-text {
+  margin: 1rem 0px;
+}
+.hero .content-hero-text .red-span {
+  color: red;
+}
+.hero .hero-apply-text {
+  font-weight: 700;
+  font-size: 18px;
+}
+.hero .blue-span {
+  color: #1e69e1;
+}
+.hero button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #56bfe0 0%, #1e69e1 91.67%);
+}
+
+section.navigation {
+  background: linear-gradient(180deg, #56bfe0 0%, #1e69e1 100%);
+  height: 70px;
+}
+section.navigation .btnBg {
+  padding: 10px 50px;
+  border-radius: 10px;
+  background: #56bfe0;
+  color: #fff;
+}
+
+section.articleSuccess {
+  background: url("../img/successs.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 12px solid #000;
+}
+section.articleSuccess .middlecards {
+  width: 60%;
+  margin: auto;
+  box-shadow: 2px 2px 10px;
+}
+section.articleSuccess .middlecards .custCard {
+  background-color: white;
+  width: 33.3%;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+section.articleSuccess section.success {
+  width: 60%;
+  margin: auto;
+}
+section.articleSuccess section.success h1 {
+  width: 40%;
+  font-size: 30px;
+  padding: 10px 31px;
+  border-radius: 10px;
+  background: linear-gradient(73deg, #1e69e1 52.12%, #56bfe0 100%);
+  font-weight: 700;
+  color: #fff;
+}
+section.articleSuccess .restOp {
+  background: url("../img/background.png"), lightgray 50%/cover no-repeat;
+}
+section.articleSuccess .restOp .bonuspack {
+  background: url("../img/bonuspack.jpg");
+  background-size: cover;
+  padding: 10px 100px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+section.articleSuccess .restOp .bonuspack ul {
+  margin: 30px 0;
+}
+section.articleSuccess .restOp .bonuspack button {
+  margin: auto;
+  display: flex;
+  color: white;
+  padding: 8px 70px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #56bfe0 0%, #1e69e1 91.67%);
+}
+section.articleSuccess .restOp .projects {
+  margin: 150px 0;
+  font-size: larger;
+}
+section.articleSuccess .restOp .projectCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+section.articleSuccess .restOp .projectCards .pCard {
+  width: 55%;
+  color: #fff;
+  border-radius: 10px;
+  border: 3px solid #56bfe0;
+  background: #56bfe0;
+  padding: 15px 30px;
+}
+section.articleSuccess .restOp .projectCards .pCard span.pCard-title {
+  font-size: 18px;
+  border-bottom: 2px solid white;
+  font-weight: 200;
+  margin-right: 15px;
+}
+section.articleSuccess .restOp .projectCards .pCard span.pCard-number {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #1e69e1;
+  border-radius: 50%;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+section.articleSuccess .restOp .job-guarantee {
+  border-radius: 8px;
+  border: 5px solid #56bfe0;
+  margin: 150px 0;
+  padding: 35px 30px;
+  width: 70%;
+}
+section.articleSuccess .restOp .job-guarantee .job-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+}
+section.articleSuccess .restOp .job-guarantee .job-content img {
+  width: 250px;
+}
+section.articleSuccess .restOp .job-guarantee .job-content .content-text {
+  width: 60%;
+}
+section.articleSuccess .restOp .job-guarantee .job-content .content-text p {
+  font-weight: 600;
+}
+section.articleSuccess .restOp .job-guarantee .job-content .content-text a {
+  font-weight: 600;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #56bfe0 0%, #1e69e1 91.67%);
+}
+section.articleSuccess .restOp .experts {
+  margin: 150px 0;
+}
+section.articleSuccess .restOp .experts hr {
+  background-color: #1e69e1;
+  height: 1px;
+  margin: 5px 0;
+}
+section.articleSuccess .restOp .experts .experts-head-title h2 {
+  font-size: 32px;
+  color: #000;
+}
+section.articleSuccess .restOp .experts .experts-head-title h2 span:first-child {
+  color: #1e69e1;
+  font-size: 38px;
+}
+section.articleSuccess .restOp .experts .expertsCard {
+  height: 225px;
+  padding: 16px;
+}
+section.articleSuccess .restOp .experts .milorad,
+section.articleSuccess .restOp .experts .bosko {
+  border-radius: 8px;
+  border: 2px solid #1e69e1;
+  background: #56bfe0;
+}
+section.articleSuccess .restOp .experts .milorad h2,
+section.articleSuccess .restOp .experts .bosko h2 {
+  color: #000;
+  font-weight: 600;
+}
+section.articleSuccess .restOp .experts .milorad p,
+section.articleSuccess .restOp .experts .bosko p {
+  font-weight: 600;
+  color: #000;
+}
+section.articleSuccess .restOp .experts .milorad img.expert-img,
+section.articleSuccess .restOp .experts .bosko img.expert-img {
+  width: 144px;
+  height: 172px;
+  border-radius: 6.589px;
+  border: 1px solid #1e69e1;
+}
+section.articleSuccess .restOp .experts .arijana,
+section.articleSuccess .restOp .experts .ivana {
+  border-radius: 8px;
+  border: 2px solid #56bfe0;
+  background: #1d427e;
+}
+section.articleSuccess .restOp .experts .arijana h2,
+section.articleSuccess .restOp .experts .ivana h2 {
+  color: #fff;
+  font-weight: 600;
+}
+section.articleSuccess .restOp .experts .arijana p,
+section.articleSuccess .restOp .experts .ivana p {
+  font-weight: 600;
+  color: #fff;
+}
+section.articleSuccess .restOp .experts .arijana img.expert-img,
+section.articleSuccess .restOp .experts .ivana img.expert-img {
+  width: 144px;
+  height: 172px;
+  border-radius: 6.589px;
+  border: 1px solid #56bfe0;
+}
+section.articleSuccess .restOp .alumni {
+  margin: 150px 0;
+}
+section.articleSuccess .restOp .alumni .data-alumni-title h2 {
+  color: #000;
+  font-weight: 500;
+  font-size: 32px;
+}
+section.articleSuccess .restOp .alumni .data-alumni-title h2 span {
+  color: #1e69e1;
+  font-size: 38px;
+  font-weight: 700;
+}
+section.articleSuccess .restOp .prev-chosen-proects {
+  margin: 150px 0;
+}
+section.articleSuccess .restOp .prev-chosen-proects h2 {
+  font-weight: 500;
+  color: #000;
+  font-size: 32px;
+}
+section.articleSuccess .restOp .prev-chosen-proects h2 span {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1e69e1;
+}
+section.articleSuccess .restOp .prev-chosen-proects .proect-card {
+  border-radius: 20px;
+  border: 4px solid #1e69e1;
+  background: #fff;
+  gap: 40px;
+  padding: 20px 30px;
+}
+section.articleSuccess .restOp .prev-chosen-proects .proect-card h3 {
+  color: #1d427e;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section.articleSuccess .restOp .prev-chosen-proects .proects-content {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+section.articleSuccess .restOp .meet-up {
+  background: #1d427e;
+  margin: 150px 0;
+}
+section.articleSuccess .restOp .meet-up .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 22px 80px;
+}
+section.articleSuccess .restOp .meet-up .content .left-side h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+section.articleSuccess .restOp .meet-up .content .left-side h3 span {
+  color: #56bfe0;
+  font-weight: 700;
+}
+section.articleSuccess .restOp .meet-up .content .left-side .form-content form input[type=text],
+section.articleSuccess .restOp .meet-up .content .left-side .form-content form input[type=email] {
+  border: 1px solid var(--solid-uxui-dark, #394dff);
+}
+section.articleSuccess .restOp .meet-up .content .left-side .form-content form input[type=button] {
+  background-color: #56bfe0;
+  border: none;
+  color: #292929;
+}
+section.articleSuccess .restOp .meet-up .content .right-side {
+  background-image: url(../img/data-meet-up.png);
+  background-size: cover;
+  height: 383px;
+  width: 575px;
+  position: relative;
+}
+section.articleSuccess .restOp .meet-up .content .right-side p {
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+  right: 0;
+  color: #000;
+  border-radius: 0px 0px 5px 5px;
+  background: #56bfe0;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 7px;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 150px;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card {
+  width: 285px;
+  border: 1px solid black;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .top .pricing-info {
+  padding: 21px 12px;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .top .pricing-info p {
+  border-bottom: 2px solid black;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .top .pricing-info p.price-text {
+  color: #666;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .top .pricing-info p.price-text span.pt-blue-line-t {
+  color: #394dff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: line-through;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .top .pricing-info p.price-text span.pt-red {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .top .pricing-info span.red {
+  color: #fb1d1d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .top .blue-section-top {
+  background: #1d427e;
+  text-align: center;
+  height: 180px;
+  margin: 0 8px;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .top .blue-section-top h4 {
+  color: #56bfe0;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .top .blue-section-top p {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .bottom p {
+  border-bottom: 2px solid black;
+  width: 90%;
+  margin: auto;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .bottom .milorad-pricing-card {
+  background: #1d427e;
+  padding: 21px 12px;
+  position: relative;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .bottom .milorad-pricing-card img {
+  position: absolute;
+  top: -40%;
+  left: 35%;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .bottom .milorad-pricing-card a {
+  border-radius: 10px;
+  background: #56bfe0;
+  color: #000;
+  padding: 9px 23px;
+  font-weight: 700;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .bottom button {
+  text-align: center;
+  border-radius: 10px;
+  background: #1d427e;
+  width: 206px;
+  padding: 9px 23px;
+  color: #fff;
+  border: none;
+}
+section.articleSuccess .restOp2 .pricing .pricing-cards .pricing-card .bottom p.reservation {
+  color: #666;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */
